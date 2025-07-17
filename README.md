@@ -1,12 +1,68 @@
-# React + Vite
+# 🛍️ One Silk E‑Commerce Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, responsive e‑commerce storefront built with Next.js and styled with Tailwind CSS. Features include product browsing, filters, product detail views, and a clean UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+Check it out here: https://e-commerce-store-one-silk.vercel.app/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Preview
+
+![Homepage view showcasing product grid and hero banner](./public/preview-home.png)
+![Product detail page with images and add-to-cart](./public/preview-product.png)
+![Pricing or filter section highlighting promotions](./public/preview-pricing.png)
+
+---
+
+## 🧩 Features
+
+- 🏪 Clean homepage with Hero banner and featured items
+- 📦 Grid layout for product browsing
+- 🔎 Product filter and sort (pricing, categories)
+- 🛍️ Product detail page with images and descriptions
+- 💡 Mobile-first and fully responsive via Tailwind CSS
+- 🚀 Built with Next.js and Vercel for fast dev + build tools
+
+---
+
+## 🛠️ Tech Stack
+
+
+| Tech            | Purpose                       |
+|-----------------|-------------------------------|
+| NextJS          | UI framework                  |
+| Tailwind CSS    | Styling                       |
+| Vite            | Fast dev + build tool         |
+| Vercel          | Hosting and deployment        |
+
+## 📥 Getting Started Locally
+
+1. **Clone the repo**
+    ```bash
+    git clone https://github.com/HariKishore7/E-Commerce-Store
+    cd E-Commerce-Store
+    ```
+
+2. **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3. **Run dev server**
+    ```bash
+    npm run dev
+    ```
+    Visit `http://localhost:5173`
+
+4. **Build for production**
+    ```bash
+    npm run build
+    npm start
+    ```
+    Visit `http://localhost:4173`
+
+---
