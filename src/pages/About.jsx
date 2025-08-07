@@ -3,7 +3,7 @@ import { FaLinkedin } from 'react-icons/fa'
 
 const About = () => {
   return (
-    <div className='flex flex-col items-center  my-8'>
+    <div className='flex flex-col items-center  justify-center h-[50vh] p-15'>
       <h1 className='font-bold text-3xl text-green-500'>HARI KISHORE</h1>
       <div className='w-auto px-15 py-5'>
         <p>Hello buddy, myself <b>Hari Kishore</b>. I'm a professional <b>Software Developer</b> with over <b>5 years</b> of experience in building web applications. I am passionate about creating efficient, user-friendly websites and continuously strive to enhance my skills in both <b>personal and professional</b> domains.</p>
